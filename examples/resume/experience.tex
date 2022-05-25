@@ -11,21 +11,56 @@
 
 %---------------------------------------------------------
   \cventry
+    {Senior Staff Software Engineer} % Job title
+    {Equinix} % Organization
+    {Sunnyvale, CA} % Location
+    {March. 2020 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Working on open source, programable dataplane Vector Packet Processing (VPP), extended it to support feature like protocol independent NAT, bug fixes etc.
+               All the code is committed back to the project}
+        \item {Design and develop Elixir based VPP agent that implements binary message passing protocol exposed by VPP.
+               Agent exposes gRPC based northbound interface that is used by SDN controller to program VPP. Agent also listens to VPP events like interface state changes and
+               takes appropriate action defined e.g. notify SDN controller etc}
+        \item {Helped dataplane team in various VPP related blockers. Also helped team with right tooling for the project.}
+        \item {Work with dataplane team on various POCs e.g. VPP as L2 bridge connecting two KVM VMs, service chaining in VPP using VPP graph node abstraction i.e. ACL -> NAT -> Routing,
+               VPP and hugepages configuration for performance tuning}
+        \item {Briefly worked on P4 programable SmartNIC by Pensando for the POC of IPSEC offload}
+        \item {Implemented Vault based MTLS authentication for one of the REST services}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Staff Software Engineer} % Job title
+    {Equinix} % Organization
+    {Sunnyvale, CA} % Location
+    {December. 2018 - March. 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Leading team of 4 to 6 developers to provide software solutions on different problems}
+        \item {Designed and developed test automation framework that helps Equinix certify different
+               products like Equnix Fabric (EF). (python)}
+        \item {Developed execution portal for the framework to help folks run the automation easily. Portal is written in Elixir using Phoenix LiveView}
+        \item {Setup CI/CD for test automation framework}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
     {Software Engineer} % Job title
     {Equinix} % Organization
     {Sunnyvale, CA} % Location
-    {July. 2017 - PRESENT} % Date(s)
+    {July. 2017 - December. 2018} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Implemented driver for Ciena WaveServer and OpenLineSystem (OLS) controller MCP in ONOS.
-               All the code is committed back to ONOS opensource community.}\
+               All the code is committed back to ONOS opensource community.}
         \item {Extended many components in ONOS e.g. CLI, Optical Intent Compiler, OAuth2
                authentication for REST protocol etc.}
         \item {Developed alarm-handler ONOS app. The app takes well defined
                actions base on the alarm e.g. installation/removal of intents if port is down.
                (This app is not part of ONOS repo)}
-        \item {Designed and developed test automation framework that helps Equinix certify different
-               products like Equnix Cloud Exchange (ECX). (python)}
       \end{cvitems}
     }
 
