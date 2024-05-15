@@ -13,13 +13,22 @@
   \cventry
     {Senior Staff Software Engineer} % Job title
     {Equinix} % Organization
-    {Sunnyvale, CA} % Location
+    {Redwood city, CA} % Location
     {March. 2021 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Working on open source, programable dataplane Vector Packet Processing (VPP), extended it to support feature like protocol independent NAT, bug fixes etc.
+        \item {Contributed to design of Equinix Network Observability platform (ETO) from picking the tech-stack to deployment on k8 using ArgoCD}
+        \item {Fixed bugs in opensource softwares that were used in ETO e.g. gNMIC-server}
+        \item {Integrated ETO with TRIX (which provides newtwork observability equinixmetal) by which ETO got graphQL API interface}
+        \item {Extended TRIX to work with Time Series Data Bases (TSDB)}
+        \item {Added support for Arrcus (new vendor) in TRIX}
+        \item {Wrote TSDB interface library (in Go) with implementation for mimir, prometheus and influxDB. Interface allows applications to work with TSDBs}
+        \item {Wrote replay-stats script (in Go) to sync Time Series data b/w prometheus and influxDB.}
+        \item {Wrote a cache layer (in Elixir) for ETO to correlate business logic}
+        \item {Lead the design of gnmi sensor test automation platform (in python)}
+        \item {Worked on open source, programable dataplane Vector Packet Processing (VPP), extended it to support feature like protocol independent NAT, bug fixes etc.
                All the code is committed back to the project}
-        \item {Design and develop Elixir based VPP agent that implements binary message passing protocol exposed by VPP.
+        \item {Designed and developed Elixir based VPP agent that implements binary message passing protocol exposed by VPP.
                Agent exposes gRPC based northbound interface that is used by SDN controller to program VPP. Agent also listens to VPP events like interface state changes and
                takes appropriate action defined e.g. notify SDN controller etc}
         \item {Helped dataplane team in various VPP related blockers. Also helped the team with the right tooling for the project.}
@@ -27,7 +36,6 @@
                VPP and hugepages configuration for performance tuning}
         \item {Briefly worked on P4 programable SmartNIC by Pensando for the POC of IPSEC offload}
         \item {Implemented Vault based mTLS authentication for one of the REST services}
-        \item {As a maintainer/lead of many repos/projects, code reviews and merge requests}
       \end{cvitems}
     }
 
@@ -36,13 +44,13 @@
     {Staff Software Engineer} % Job title
     {Equinix} % Organization
     {Sunnyvale, CA} % Location
-    {December. 2018 - March. 2020} % Date(s)
+    {December. 2018 - March. 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Leading team of 4 to 6 developers to provide software solutions on different problems}
         \item {Designed and developed test automation framework that helps Equinix certify different
                products like Equnix Fabric (EF), Network Edge (NE)(python)}
-        \item {Developed execution portal for the framework to help folks run the automation easily. Portal is written in Elixir using Phoenix LiveView}
+        \item {Developed execution portal for the framework to help team run the automation easily. Portal is written in Elixir using Phoenix LiveView}
         \item {Setup CI/CD for test automation framework}
       \end{cvitems}
     }
@@ -92,18 +100,12 @@
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Worked on two open source SDN products OpenVirteX (OVX) and Open Networking Operating System (ONOS).}
-        \item {As part of ONLAB developing team I got the opportunity to contribute into various aspects of both OVX and 
-                ONOS, from developing core features like VirtualIPAddressing, CLI etc to developing testing tools
-                like testing framework.}
-        \item {Designed and developed OVXTesting Framework under the guidance of Ali Al-Shabibi.}
-        \item {Learned JIRA (ticketing software), Jenkins (tool to automate testing for newly added code), git, github and gerrit.}
-        \item {Fixed many bugs related to OVX, OVX-GUI, OVX-CLI and OVXTestingFramekwork.}
         \item {Developed new features for OVX like VirtualIPAddressing, link and route recovery etc.}
+        \item {Designed and developed OVXTesting Framework under the guidance of Ali Al-Shabibi.}
         \item {Developed CLI and APIs for ONOS-SegmentRouting under the guidance of Saurav Das.}
         \item {End to end Integration of packet-optical use case of ONOS.}
         \item {Learning Erlang, bug fixes and adding new feature to Linc-oe.}
         \item {Added features in Mininet to support Optical components.}
-        \item {Blogged for ONF, also wrote many users guides for OVX and ONOS.}
       \end{cvitems}
     }
 
